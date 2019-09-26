@@ -73,13 +73,13 @@ h2 {
   .header-nav__item:last-child a {
     padding-right: 0; }
   .header-nav__item:hover a {
-    color: var(--color-primary); }
+    color: var(--color-heading); }
   .header-nav__link {
     font-family: var(--font-primary);
     font-size: 1.4rem;
     text-transform: capitalize;
     text-decoration: none;
-    color: var(--color-heading);
+    color: var(--color-primary);
     display: inline-block;
     padding: 1.5rem;
     transition: color .3s; }
@@ -245,17 +245,17 @@ h2 {
   font-family: var(--font-heading);
   font-weight: 700; }
 
-.container th h4 {
+.table-container th h4 {
   font-family: var(--font-text);
   font-weight: 300;
   font-size: 3em;
   text-transform: uppercase; }
 
-.container td {
+.table-container td {
   font-weight: normal;
   font-size: 1.6rem; }
 
-.container {
+.table-container {
   text-align: left;
   overflow: hidden;
   width: 80%;
@@ -278,43 +278,43 @@ h2 {
   .silver h4 {
     color: #fff !important; }
 
-.container td, .container th {
+.table-container td, .table-container th {
   padding-bottom: 2%;
   padding-top: 2%; }
 
 /* Background-color of the odd rows */
-.container tr:nth-child(odd) {
+.table-container tr:nth-child(odd) {
   background-color: #f4f4f4; }
 
 /* Background-color of the even rows */
-.container tr:nth-child(even) {
+.table-container tr:nth-child(even) {
   background-color: var(--color-grey-light); }
 
-.container tr:first-child th {
+.table-container tr:first-child th {
   text-align: center; }
 
-.container tr.tr-transparent-bg {
+.table-container tr.tr-transparent-bg {
   background-image: none; }
 
-.container td:first-child {
+.table-container td:first-child {
   color: #333;
   font-size: 2rem;
   text-align: center; }
 
-.container td:not(:first-child) {
+.table-container td:not(:first-child) {
   color: #0fc138;
   text-align: center; }
 
-.container tr:hover {
+.table-container tr:hover {
   background-color: #ededed; }
 
 @media (max-width: 800px) {
-  .container td:nth-child(4),
-  .container th:nth-child(4) {
+  .table-container td:nth-child(4),
+  .table-container th:nth-child(4) {
     display: none; } }
 
 .hero {
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.2)), url(../img/header-bg.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.2)), url(../../img/header-bg.jpg);
   background-size: cover;
   color: #fff;
   letter-spacing: 1px; }
@@ -498,17 +498,17 @@ h2 {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     background-blend-mode: screen; }
     .pricing__image--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/package-item-bg-1.jpg);
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../../img/package-item-bg-1.jpg);
       background-size: cover; }
       .pricing__image--1 h3 {
         background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
     .pricing__image--2 {
-      background-image: linear-gradient(to right bottom, #2998ff, #e4ac8d), url(../img/package-item-bg-2.jpg);
+      background-image: linear-gradient(to right bottom, #2998ff, #e4ac8d), url(../../img/package-item-bg-2.jpg);
       background-size: cover; }
       .pricing__image--2 h3 {
         background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(228, 172, 141, 0.85)); }
     .pricing__image--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/package-item-bg-3.jpg);
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../../img/package-item-bg-3.jpg);
       background-size: cover; }
       .pricing__image--3 h3 {
         background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
