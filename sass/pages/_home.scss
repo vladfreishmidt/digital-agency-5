@@ -3,7 +3,7 @@
         to right bottom,
         rgba(0, 0, 0, 0.6),
         rgba(255, 255, 255, 0.2)),
-    url(../../img/header-bg.jpg);
+    url(../img/header-bg.jpg);
     background-size: cover;
     color: #fff;
     
@@ -292,7 +292,7 @@
 
         &--1 {
             background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
-            url(../../img/package-item-bg-1.jpg);
+            url(../img/package-item-bg-1.jpg);
             background-size: cover;
             
             h3 {
@@ -301,7 +301,7 @@
         }
 
         &--2 {
-            background-image: linear-gradient(to right bottom, #2998ff, #e4ac8d), url(../../img/package-item-bg-2.jpg);
+            background-image: linear-gradient(to right bottom, #2998ff, #e4ac8d), url(../img/package-item-bg-2.jpg);
             background-size: cover; 
 
             h3 {
@@ -311,7 +311,7 @@
 
         &--3 {
             background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
-            url(../../img/package-item-bg-3.jpg);
+            url(../img/package-item-bg-3.jpg);
             background-size: cover; 
 
             h3 {
