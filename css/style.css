@@ -298,7 +298,7 @@ h2 {
 
 .table-container td:first-child {
   color: #333;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center; }
 
 .table-container td:not(:first-child) {
